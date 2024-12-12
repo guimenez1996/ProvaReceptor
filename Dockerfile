@@ -1,6 +1,6 @@
 # Etapa 1: Use uma imagem base do Maven para compilar o código
 FROM maven:latest AS build
-LABEL authors="Guilherme Bonomo"
+LABEL authors="Guilherme Menezes"
 # Defina o diretório de trabalho dentro do contêiner
 WORKDIR /app
 
